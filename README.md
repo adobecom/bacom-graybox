@@ -74,6 +74,8 @@ Work with OPS to generate automatic tickets / CSOs, for example if an error caus
 
 Example Logging:
 ```js
+
+.
 window.lana.log('message', 'info, block-name');
 ```
 
