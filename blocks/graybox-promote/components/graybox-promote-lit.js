@@ -1,7 +1,6 @@
 import { getSheet } from '../../../../tools/utils/utils.js';
 import { LitElement, html } from '../../../deps/lit-all.min.js';
 import { Task } from '../../../deps/lit-task.min.js';
-import login from '../../../tools/sharepoint/login.js';
 import {
   accessToken,
   accessTokenExtra,
