@@ -5,12 +5,12 @@
     {
       "id": "library",
       "title": "Library",
-      "environments": [ "edit" ],
+      "environments": ["edit"],
       "isPalette": true,
       "passConfig": true,
       "paletteRect": "top: auto; bottom: 20px; left: 20px; height: 398px; width: 360px;",
       "url": "https://milo.adobe.com/tools/library",
-      "includePaths": [ "**.docx**" ]
+      "includePaths": ["**.docx**"]
     },
     {
       "id": "tools",
@@ -21,29 +21,29 @@
       "containerId": "tools",
       "id": "localize",
       "title": "Localize (V2)",
-      "environments": [ "edit" ],
+      "environments": ["edit"],
       "url": "https://main--bacom-graybox--adobecom.hlx.page/tools/loc?milolibs=locui",
       "passReferrer": true,
       "passConfig": true,
-      "includePaths": [ "**.xlsx**" ]
+      "includePaths": ["**.xlsx**"]
     },
     {
       "containerId": "tools",
       "id": "graybox-promote",
       "title": "Graybox Promote",
-      "environments": [ "preview" ],
+      "environments": ["edit"],
       "url": "https://main--bacom-graybox--adobecom.hlx.page/tools/graybox-promote?milolibs=grayboxui",
       "isPalette": true,
       "passReferrer": true,
       "passConfig": true,
       "paletteRect": "top: auto; bottom: 20px; left: 20px; height: 498px; width: 460px;",
-      "includePaths": [ "*.json" ]
+      "includePaths": ["*.json"]
     },
     {
       "containerId": "tools",
       "title": "Send to CaaS",
       "id": "sendtocaas",
-      "environments": ["dev","preview", "live", "prod"],
+      "environments": ["dev", "preview", "live", "prod"],
       "event": "send-to-caas",
       "excludePaths": ["https://milo.adobe.com/tools/caas**", "*.json"]
     },
@@ -66,13 +66,13 @@
       "containerId": "tools",
       "id": "locales",
       "title": "Locales",
-      "environments": [ "edit", "dev", "preview", "live" ],
+      "environments": ["edit", "dev", "preview", "live"],
       "isPalette": true,
       "passConfig": true,
       "passReferrer": true,
       "paletteRect": "top: auto; bottom: 25px; left: 75px; height: 388px; width: 360px;",
       "url": "https://milo.adobe.com/tools/locale-nav",
-      "includePaths": [ "**.docx**" ]
+      "includePaths": ["**.docx**"]
     },
     {
       "containerId": "tools",
@@ -87,31 +87,31 @@
       "containerId": "tools",
       "id": "version-history",
       "title": "Version History",
-      "environments": [ "edit" ],
+      "environments": ["edit"],
       "url": "https://milo.adobe.com/tools/version-history",
       "isPalette": true,
       "passReferrer": true,
       "passConfig": true,
       "paletteRect": "top: auto; bottom: 20px; left: 20px; height: 498px; width: 460px;",
-      "includePaths": [ "**.docx**", "**.xlsx**" ]
+      "includePaths": ["**.docx**", "**.xlsx**"]
     },
     {
       "containerId": "tools",
       "id": "caas-configurator",
       "title": "CaaS Configurator",
-      "environments": [ "edit", "preview", "dev" ],
+      "environments": ["edit", "preview", "dev"],
       "url": "https://milo.adobe.com/tools/caas",
       "isPalette": false,
-      "includePaths": [ "**.docx**"]
+      "includePaths": ["**.docx**"]
     },
     {
       "containerId": "tools",
       "id": "faas-configurator",
       "title": "FaaS Configurator",
-      "environments": [ "edit", "preview", "dev" ],
+      "environments": ["edit", "preview", "dev"],
       "url": "https://milo.adobe.com/tools/faas",
       "isPalette": false,
-      "includePaths": [ "**.docx**"]
+      "includePaths": ["**.docx**"]
     }
   ]
 }
