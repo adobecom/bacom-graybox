@@ -1,20 +1,4 @@
-/*
- * Copyright 2022 Adobe. All rights reserved.
- * This file is licensed to you under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License. You may obtain a copy
- * of the License at http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
- * OF ANY KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
- */
-
-/*
-* Stats for Customer Stories
-*/
-
-import { getLibs } from '../../scripts/utils.js';
+import { LIBS } from '../../scripts/scripts.js';
 
 async function decorateRow(row, module) {
   const { decorateLinkAnalytics } = module;
@@ -30,8 +14,8 @@ async function decorateRow(row, module) {
 }
 
 export default async function init(el) {
-  const { createTag } = await import(`${getLibs()}/utils/utils.js`);
-  const module = await import(`${getLibs()}/martech/attributes.js`);
+  const { createTag } = await import(`${LIBS}/utils/utils.js`);
+  const module = await import(`${LIBS}/martech/attributes.js`);
 
   module.decorateBlockAnalytics(el);
   const firstRow = el.querySelector(':scope > div');
