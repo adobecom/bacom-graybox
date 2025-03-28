@@ -22,7 +22,7 @@
       "id": "localize",
       "title": "Localize (V2)",
       "environments": [ "edit" ],
-      "url": "https://main--bacom-graybox--adobecom.hlx.page/tools/loc?milolibs=locui",
+      "url": "https://main--bacom-graybox--adobecom.aem.page/tools/loc?milolibs=locui",
       "passReferrer": true,
       "passConfig": true,
       "includePaths": [ "**.xlsx**" ]
@@ -32,7 +32,7 @@
       "id": "graybox-promote",
       "title": "Graybox Promote",
       "environments": [ "preview" ],
-      "url": "https://main--bacom-graybox--adobecom.hlx.page/tools/graybox-promote?milolibs=grayboxui",
+      "url": "https://main--bacom-graybox--adobecom.aem.page/tools/graybox-promote?milolibs=grayboxui",
       "isPalette": true,
       "passReferrer": true,
       "passConfig": true,
@@ -79,7 +79,7 @@
       "title": "Tag Selector",
       "id": "tag-selector",
       "environments": ["edit"],
-      "url": "https://main--bacom--adobecom.hlx.live/tools/tag-selector",
+      "url": "https://main--bacom--adobecom.aem.live/tools/tag-selector",
       "isPalette": true,
       "paletteRect": "top: 150px; left: 7%; height: 675px; width: 85vw;"
     },
