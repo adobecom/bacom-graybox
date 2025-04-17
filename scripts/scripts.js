@@ -20,7 +20,7 @@ const CONFIG = {
   },
   prod: {
     edgeConfigId: '65acfd54-d9fe-405c-ba04-8342d6782ab0',
-    pdfViewerClientId: '4520c0edfbf147158758d71d18765fec',
+    pdfViewerClientId: '16769f4e1e7b4e3b94c1ed23eafb8870',
     pdfViewerReportSuite: 'adbadobenonacdcprod,adbadobedxprod,adbadobeprototype',
   },
   hlxPage: {
@@ -215,7 +215,7 @@ export const LIBS = setLibs(window.location);
   }
 
   setConfig({ ...CONFIG, miloLibs: LIBS });
-  loadLana({ clientId: 'bacom', tags: 'info' });
+  loadLana({ clientId: 'bacom', tags: 'info', endpoint: 'https://business.adobe.com/lana/ll', endpointStage: 'https://business.stage.adobe.com/lana/ll' });
   await loadArea();
 
   if (document.querySelector('meta[name="aa-university"]')) {
