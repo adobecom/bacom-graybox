@@ -1,6 +1,7 @@
 {
   "project": "BACOM",
   "host": "business.adobe.com",
+  "trustedHosts": ["milo.adobe.com"],
   "plugins": [
     {
       "id": "library",
